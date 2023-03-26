@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>SuperHero Combat</title>
+      <link rel="stylesheet" href="cssFiles/topBar.css">
+      <link rel="stylesheet" href="cssFiles/mainPage.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+      <header id="topBar">
+        <div id="playerOneNav" class="playerNav">
+          <input type="search" id="playerOneInput" class="playerInput" placeholder="Type Hero Name:">
+          <button id="playerOneUpload" class="navButton">Upload</button>
+        </div>
+        <div id="combatNav">
+          <button id="combatButton" class="navButton">Battle</button>
+        </div>
+        <div id="playerTwoNav" class="playerNav">
+          <input type="search" id="playerTwoInput" class="playerInput" placeholder="Type Hero Name:">
+          <button id="playerTwoUpload" class="navButton">Upload</button>
+        </div>
+      </header>
+
+      <main id="mainPage">
+        <section class="mainBox" id="playerOneHero"></section>
+        <section class="mainBox" id="scoreBoard"></section>
+        <section class="mainBox" id="playerTwoHero"></section>
+      </main>
+      
+      <script src="script.js"></script>
+    </body>
+  </html>

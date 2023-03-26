@@ -1,0 +1,83 @@
+body{
+  background-size: cover;
+}
+
+#topBar{
+  position: absolute; 
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:85px;
+  width: 100%;
+  background-color: black;
+}
+
+.playerNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+#playerOneNav{
+  padding-left: 10px;
+}
+
+#playerTwoNav{
+  padding-right: 10px;
+}
+
+.navButton{
+  border: none;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  transition: padding 0.3s;
+  transition: font-size 0.3s;
+}
+
+#playerOneUpload:hover{
+  background-color: rgb(255, 68, 13);
+  padding: 15px 25px;
+  font-size: 22px;
+  transition: background-color 0.3s;
+  transition: padding 0.3s;
+  transition: font-size 0.3s;
+}
+
+#combatButton:hover{
+  background-color: rgb(222, 212, 10);
+  padding: 15px 25px;
+  font-size: 22px;
+  transition: background-color 0.3s;
+  transition: padding 0.3s;
+  transition: font-size 0.3s;
+}
+
+#playerTwoUpload:hover{
+  background-color: rgb(1, 106, 146);
+  padding: 15px 25px;
+  font-size: 22px;
+  transition: background-color 0.3s;
+  transition: padding 0.3s;
+  transition: font-size 0.3s;
+}
+
+.playerInput{
+  font-size: 22px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#playerOneInput{
+ margin-right: 15px;
+}
+
+#playerTwoInput{
+  margin-right: 15px;
+}
